@@ -148,7 +148,7 @@ const Onboarding = () => {
 export default Onboarding;
 
 const Container = styled.div`
-  margin-left: 23.4%;
+  margin-left: 24%;
   margin-right: 23.4%;
   padding-top: 25px;
   align-items: center;
@@ -252,7 +252,7 @@ const WorkProfile = styled.div`
 `;
 
 const Img = styled.img`
-  width: 613px;
+  width: 100%;
   height: 480px;
   margin-top: 20px;
 `;
