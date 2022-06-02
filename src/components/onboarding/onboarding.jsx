@@ -132,7 +132,7 @@ const Onboarding = () => {
         <Img src={Work5} />
       </WorkProfile>
       <Slider>
-        <ImgSlider src={Work1} />
+        <ImgSlider src={Work1} className="selected" />
         <ImgSlider src={Work2} />
         <ImgSlider src={Work3} />
         <ImgSlider src={Work4} />
@@ -288,15 +288,28 @@ const Slider = styled.div`
   align-items: center;
   position: relative;
   left: 114px;
+  .selected {
+    border-style: solid;
+    border-width: 1.8px;
+    border-color: #e94c89;
+    z-index: 1;
+  }
 `;
 
 const ImgSlider = styled.img`
   height: 45px;
   width: 65px;
   margin: 10px;
-  border-radius: 5px;
+  border-radius: 7px;
   margin-top: 40px;
   cursor: pointer;
+  &:hover {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #e7e4e4;
+    transition: 0.1s ease;
+    z-index: 0;
+  }
 `;
 
 const PersonalText = styled.div`
@@ -307,4 +320,10 @@ const Description = styled.p`
   color: #3d3d4e;
 `;
 
-const A = styled.a``;
+const A = styled.a`
+  color: #e94c89;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.8;
+  }
+`;
