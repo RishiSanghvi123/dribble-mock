@@ -325,7 +325,7 @@ const PersonalText = styled.div`
 const Description = styled.p`
   color: #3d3d4e;
   font-size: 20px;
-  width: 80%;
+  width: 75%;
 `;
 
 const A = styled.a`

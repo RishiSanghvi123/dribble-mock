@@ -69,8 +69,8 @@ const H2 = styled.h2`
 `;
 const P1 = styled.p`
   position: relative;
-  left: 15px;
-  font-size: 10px;
+  left: 12px;
+  font-size: 13px;
   bottom: 25px;
 `;
 
@@ -83,7 +83,7 @@ const Button = styled.button`
   font-size: 15px;
   margin: 5px;
   height: 32px;
-  width: 83px;
+  width: 86px;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
