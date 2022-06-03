@@ -63,13 +63,13 @@ const UpperContainer = styled.div`
 const H2 = styled.h2`
   position: relative;
   left: 85px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
   bottom: 5px;
 `;
 const P1 = styled.p`
   position: relative;
-  left: 12px;
+  left: 15px;
   font-size: 10px;
   bottom: 25px;
 `;
@@ -80,7 +80,7 @@ const Button = styled.button`
   border: none;
   align-items: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 15px;
   margin: 5px;
   height: 32px;
   width: 83px;
@@ -94,8 +94,8 @@ const Button = styled.button`
 
 const Image = styled.img`
   border-radius: 50%;
-  height: 59px;
-  width: 59px;
+  height: 69px;
+  width: 69px;
   position: relative;
   bottom: 9px;
   cursor: pointer;

@@ -307,7 +307,7 @@ const ImgSlider = styled.img`
   width: 75px;
   margin: 10px;
   border-radius: 7px;
-  margin-top: 100px;
+  margin-top: 80px;
   cursor: pointer;
   &:hover {
     border-style: solid;
