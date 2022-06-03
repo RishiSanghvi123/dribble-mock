@@ -177,8 +177,8 @@ const Image2 = styled.img`
 
 const Image3 = styled.img`
   height: 50%;
-  width: 10%;
+  width: 8%;
   margin-top: 40px;
   position: relative;
-  left: 407px;
+  left: 555px;
 `;
