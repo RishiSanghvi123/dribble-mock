@@ -95,8 +95,8 @@ const Onboarding = () => {
         <RightButton className="abcd">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="27"
+            height="27"
             viewBox="0 0 24 24"
             fill="none"
             role="img"
@@ -217,10 +217,10 @@ const SaveLike = styled.div``;
 const SaveButton = styled.button`
   background-color: #f3f3f4;
   border: none;
-  font-size: 12px;
+  font-size: 15px;
   color: #2f2e41;
   margin: 5px;
-  height: 42px;
+  height: 32px;
   width: 60px;
   border-radius: 6px;
   font-weight: bold;
@@ -235,9 +235,9 @@ const LikeButton = styled.button`
   border: none;
   align-items: center;
   justify-content: space-between;
-  font-size: 12px;
+  font-size: 15px;
   margin: 5px;
-  height: 42px;
+  height: 32px;
   width: 73px;
   border-radius: 6px;
   font-weight: bold;
@@ -258,7 +258,7 @@ const WorkProfile = styled.div`
 `;
 
 const Img = styled.img`
-  width: 120%;
+  width: 100%;
   height: 600px;
   margin-top: 20px;
 `;
