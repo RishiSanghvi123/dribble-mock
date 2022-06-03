@@ -102,7 +102,7 @@ const Container = styled.div`
   margin-bottom: 25px;
   border-bottom: 1px solid #eff1f5;
   height: 80px;
-  width: 1440px;
+  width: 100%;
 `;
 
 const NavLinks = styled.div`
@@ -162,7 +162,7 @@ const Button = styled.button`
   border-radius: 6.5px;
   color: white;
   font-weight: bold;
-  font-size: 16px;
-  height: 40px;
-  width: 140x;
+  font-size: 12px;
+  height: 35px;
+  width: 120px;
 `;
