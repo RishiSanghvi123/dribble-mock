@@ -153,7 +153,7 @@ const Container = styled.div`
   padding-top: 25px;
   width: 80%;
   position: relative;
-  left: 400px;
+  margin-left: 230px;
 `;
 const Profile = styled.div`
   display: flex;
@@ -258,7 +258,7 @@ const WorkProfile = styled.div`
 `;
 
 const Img = styled.img`
-  width: 800px;
+  width: 750px;
   height: 560px;
   margin-top: 20px;
 `;

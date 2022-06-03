@@ -144,7 +144,7 @@ const FlexEnd = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  width: 250px;
+  width: 280px;
   /* margin-top: 10px; */
 `;
 
