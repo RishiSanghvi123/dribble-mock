@@ -307,7 +307,7 @@ const ImgSlider = styled.img`
   width: 75px;
   margin: 10px;
   border-radius: 7px;
-  margin-top: 40px;
+  margin-top: 60px;
   cursor: pointer;
   &:hover {
     border-style: solid;
@@ -319,7 +319,7 @@ const ImgSlider = styled.img`
 `;
 
 const PersonalText = styled.div`
-  margin-top: 50px;
+  margin-top: 100px;
 `;
 
 const Description = styled.p`
