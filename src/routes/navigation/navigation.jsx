@@ -149,7 +149,7 @@ const FlexEnd = styled.div`
 `;
 
 const SignIn = styled.p`
-  font-size: 18px;
+  font-size: 16px;
   color: #6e6d7a;
   cursor: pointer;
   margin: 15px;
@@ -163,5 +163,5 @@ const Button = styled.button`
   font-weight: bold;
   font-size: 15px;
   height: 40px;
-  width: 130px;
+  width: 134px;
 `;
