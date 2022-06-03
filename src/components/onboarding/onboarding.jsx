@@ -151,7 +151,7 @@ const Container = styled.div`
   /* margin-left: 24%;
   margin-right: 23.4%; */
   padding-top: 40px;
-  width: 70%;
+  width: 72%;
   position: relative;
   margin-left: 350px;
 `;
