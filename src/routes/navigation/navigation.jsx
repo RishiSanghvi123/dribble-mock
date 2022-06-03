@@ -80,7 +80,6 @@ const L6 = styled.li`
 const Image = styled.img`
   width: 92px;
   height: 30px;
-  margin-right: 5 px;
   opacity: 1;
   display: block;
   height: auto;
@@ -112,27 +111,27 @@ const NavLinks = styled.div`
 `;
 
 const P = styled.p`
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
   color: #6e6d7a;
   &:hover {
     color: black;
   }
   cursor: pointer;
-  padding: 6px;
+  /* padding: 6px; */
   height: 20px;
   width: 70px;
 `;
 
 const Span = styled.span`
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
   color: #6e6d7a;
   &:hover {
     color: black;
   }
   cursor: pointer;
-  padding: 6px;
+  /* padding: 4px; */
   position: relative;
   top: 12px;
 `;
