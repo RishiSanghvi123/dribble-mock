@@ -133,8 +133,8 @@ const ProfilePicture = styled.div`
 
 const AdditionalInfo = styled.div`
   display: grid;
-  margin-right: 110px;
-  margin-left: 110px;
+  margin-right: 120px;
+  margin-left: 120px;
   margin-top: 30px;
 `;
 const TextDiv = styled.div`
@@ -143,12 +143,12 @@ const TextDiv = styled.div`
   justify-content: space-between;
 `;
 const P2 = styled.p`
-  font-size: 13px;
+  font-size: 16px;
   font-weight: bolder;
 `;
 const P3 = styled.p`
   cursor: pointer;
-  font-size: 11px;
+  font-size: 14px;
   color: #e94c89;
   &:hover {
     opacity: 0.7;
@@ -161,7 +161,7 @@ const ImageDiv = styled.div`
 
 const Image2 = styled.img`
   height: 100%;
-  width: 22%;
+  width: 20%;
   margin-right: 35px;
   border-radius: 4%;
   cursor: pointer;
