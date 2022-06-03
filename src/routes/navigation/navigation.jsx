@@ -95,14 +95,14 @@ const Image = styled.img`
 `;
 
 const Container = styled.div`
-  padding-left: 2%;
+  padding-left: 1%;
   /*padding-right: 12px; */
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   border-bottom: 1px solid #eff1f5;
   height: 80px;
-  width: 98%;
+  width: 99%;
 `;
 
 const NavLinks = styled.div`
