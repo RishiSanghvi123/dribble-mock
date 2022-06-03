@@ -51,6 +51,7 @@ export default HireMe;
 
 const Container = styled.div`
   width: 100%;
+  padding-top: 20px;
 `;
 
 const UpperContainer = styled.div`
@@ -107,7 +108,7 @@ const Line1 = styled.div`
   width: 37%;
   height: 47px;
   border-bottom-style: solid;
-  border-bottom-width: 1.8px;
+  border-bottom-width: 2.2px;
   border-bottom-color: #e7e7e9;
   position: absolute;
   left: 9.5%;
@@ -118,10 +119,10 @@ const Line2 = styled.div`
   width: 37%;
   height: 47px;
   border-bottom-style: solid;
-  border-bottom-width: 1.8px;
+  border-bottom-width: 2.2px;
   border-bottom-color: #e7e7e9;
   position: absolute;
-  right: 8%;
+  right: 7.8%;
   top: 35px;
 `;
 
