@@ -158,7 +158,7 @@ const Container = styled.div`
 const Profile = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
 `;
 const Info = styled.div`
   display: flex;
@@ -249,7 +249,7 @@ const WorkProfile = styled.div`
   overflow: hidden;
   position: relative;
 
-  width: 70%;
+  width: 60%;
   height: 100%;
   &:hover .abcd {
     transition: 0.5s ease;
