@@ -258,7 +258,7 @@ const WorkProfile = styled.div`
 `;
 
 const Img = styled.img`
-  width: 110%;
+  width: 100%;
   height: 600px;
   margin-top: 20px;
 `;
