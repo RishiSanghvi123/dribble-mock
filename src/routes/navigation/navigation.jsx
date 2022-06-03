@@ -12,12 +12,32 @@ const Navigation = () => {
       <Container>
         <NavLinks>
           <Image src={Logo} alt={Logo} />
-          <P>Inspiration</P>
-          <P>Find Work</P>
-          <P>Learn Design</P>
-          <P>Go Pro</P>
-          <P>Marketplace</P>
-          <P>Hire Designers</P>
+          <UL class="site-nav-desktop-nav">
+            <L1>
+              <P>Inspiration</P>
+              <div></div>
+            </L1>
+            <L2>
+              <P>Find Work</P>
+              <div></div>
+            </L2>
+            <L3>
+              <Span>Learn Design</Span>
+              <div></div>
+            </L3>
+            <L4>
+              <P>Go Pro</P>
+              <div></div>
+            </L4>
+            <L5>
+              <P>Marketplace</P>
+              <div></div>
+            </L5>
+            <L6>
+              <Span>Hire Designers</Span>
+              <div></div>
+            </L6>
+          </UL>
         </NavLinks>
         <FlexEnd>
           <IoSearch color="#9E9EA7" size={17} />
@@ -32,9 +52,34 @@ const Navigation = () => {
 
 export default Navigation;
 
+const UL = styled.ul`
+  display: flex;
+  list-style-type: none;
+  width: 644.56px;
+`;
+
+const L1 = styled.li`
+  width: 102px;
+`;
+const L2 = styled.li`
+  width: 99.55px;
+`;
+const L3 = styled.li`
+  width: 120px;
+`;
+const L4 = styled.li`
+  width: 78px;
+`;
+const L5 = styled.li`
+  width: 115px;
+`;
+const L6 = styled.li`
+  width: 130px;
+`;
+
 const Image = styled.img`
-  width: 80px;
-  height: 40px;
+  width: 92px;
+  height: 30px;
   margin-right: 5 px;
   opacity: 1;
   display: block;
@@ -48,18 +93,22 @@ const Image = styled.img`
 `;
 
 const Container = styled.div`
-  padding: 7px;
+  padding-left: 24px;
+  padding-right: 24px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   border-bottom: 1px solid #eff1f5;
-  height: 49px;
+  height: 80px;
+  width: 1440px;
 `;
 
 const NavLinks = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 80px;
+  width: 736.56px;
 `;
 
 const P = styled.p`
@@ -71,6 +120,21 @@ const P = styled.p`
   }
   cursor: pointer;
   padding: 6px;
+  height: 20px;
+  width: 70px;
+`;
+
+const Span = styled.span`
+  font-size: 11px;
+  font-weight: bold;
+  color: #6e6d7a;
+  &:hover {
+    color: black;
+  }
+  cursor: pointer;
+  padding: 6px;
+  position: relative;
+  top: 12px;
 `;
 
 const FlexEnd = styled.div`
