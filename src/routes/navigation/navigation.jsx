@@ -56,6 +56,9 @@ const UL = styled.ul`
   display: flex;
   list-style-type: none;
   width: 644.56px;
+  position: relative;
+  right: 20px;
+  top: 5px;
 `;
 
 const L1 = styled.li`
@@ -112,7 +115,7 @@ const NavLinks = styled.div`
 
 const P = styled.p`
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   color: #6e6d7a;
   &:hover {
     color: black;
@@ -125,7 +128,7 @@ const P = styled.p`
 
 const Span = styled.span`
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 700;
   color: #6e6d7a;
   &:hover {
     color: black;
