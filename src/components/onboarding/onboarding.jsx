@@ -220,8 +220,8 @@ const SaveButton = styled.button`
   font-size: 15px;
   color: #2f2e41;
   margin: 5px;
-  height: 32px;
-  width: 60px;
+  height: 37px;
+  width: 63px;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
@@ -237,8 +237,8 @@ const LikeButton = styled.button`
   justify-content: space-between;
   font-size: 15px;
   margin: 5px;
-  height: 32px;
-  width: 73px;
+  height: 37px;
+  width: 76px;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
@@ -258,7 +258,7 @@ const WorkProfile = styled.div`
 `;
 
 const Img = styled.img`
-  width: 100%;
+  width: 110%;
   height: 600px;
   margin-top: 20px;
 `;
