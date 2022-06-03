@@ -296,7 +296,7 @@ const Slider = styled.div`
   left: 114px;
   .selected {
     border-style: solid;
-    border-width: 1.8px;
+    border-width: 2.2px;
     border-color: #e94c89;
     z-index: 1;
   }
