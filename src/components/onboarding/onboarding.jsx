@@ -183,8 +183,8 @@ const PersonalTextInfo = styled.div`
 `;
 const Image = styled.img`
   border-radius: 50%;
-  height: 39px;
-  width: 39px;
+  height: 50px;
+  width: 50px;
   position: relative;
   bottom: 9px;
   cursor: pointer;
@@ -192,24 +192,24 @@ const Image = styled.img`
 
 const P1 = styled.p`
   font-weight: bolder;
-  font-size: 13px;
+  font-size: 16px;
   margin: 0;
   /* position: relative;
   top: 5px; */
 `;
 const P2 = styled.p`
-  font-size: 12px;
+  font-size: 15px;
   color: #3d3d4e;
   cursor: pointer;
 `;
 const P3 = styled.p`
-  font-size: 12px;
+  font-size: 15px;
   color: #e94c89;
   cursor: pointer;
 `;
 
 const DotSpan = styled.span`
-  font-size: 10px;
+  font-size: 13px;
   color: #6e6d7a;
 `;
 
