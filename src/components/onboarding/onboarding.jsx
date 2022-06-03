@@ -220,7 +220,7 @@ const SaveButton = styled.button`
   font-size: 15px;
   color: #2f2e41;
   margin: 5px;
-  height: 37px;
+  height: 40px;
   width: 63px;
   border-radius: 6px;
   font-weight: bold;
@@ -237,7 +237,7 @@ const LikeButton = styled.button`
   justify-content: space-between;
   font-size: 15px;
   margin: 5px;
-  height: 37px;
+  height: 40px;
   width: 76px;
   border-radius: 6px;
   font-weight: bold;
@@ -303,8 +303,8 @@ const Slider = styled.div`
 `;
 
 const ImgSlider = styled.img`
-  height: 45px;
-  width: 65px;
+  height: 55px;
+  width: 75px;
   margin: 10px;
   border-radius: 7px;
   margin-top: 40px;
