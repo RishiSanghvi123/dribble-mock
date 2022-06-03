@@ -40,7 +40,7 @@ const Navigation = () => {
           </UL>
         </NavLinks>
         <FlexEnd>
-          <IoSearch color="#9E9EA7" size={17} />
+          <IoSearch color="#9E9EA7" size={20} />
           <SignIn>Sign in</SignIn>
           <Button>Share my work</Button>
         </FlexEnd>
@@ -150,7 +150,7 @@ const FlexEnd = styled.div`
 `;
 
 const SignIn = styled.p`
-  font-size: 13px;
+  font-size: 16px;
   color: #6e6d7a;
   cursor: pointer;
   margin: 15px;
@@ -162,7 +162,7 @@ const Button = styled.button`
   border-radius: 6.5px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
-  height: 32px;
-  width: 110px;
+  font-size: 16px;
+  height: 40px;
+  width: 140x;
 `;
