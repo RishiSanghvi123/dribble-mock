@@ -150,10 +150,10 @@ export default Onboarding;
 const Container = styled.div`
   /* margin-left: 24%;
   margin-right: 23.4%; */
-  padding-top: 25px;
+  padding-top: 40px;
   width: 80%;
   position: relative;
-  margin-left: 230px;
+  margin-left: 350px;
 `;
 const Profile = styled.div`
   display: flex;
@@ -258,7 +258,7 @@ const WorkProfile = styled.div`
 `;
 
 const Img = styled.img`
-  width: 850px;
+  width: 120%;
   height: 600px;
   margin-top: 20px;
 `;
