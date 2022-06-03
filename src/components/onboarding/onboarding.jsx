@@ -153,12 +153,12 @@ const Container = styled.div`
   padding-top: 25px;
   width: 80%;
   position: relative;
-  left: 250px;
+  left: 300px;
 `;
 const Profile = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
 `;
 const Info = styled.div`
   display: flex;
@@ -249,7 +249,7 @@ const WorkProfile = styled.div`
   overflow: hidden;
   position: relative;
 
-  width: 69%;
+  width: 60%;
   height: 100%;
   &:hover .abcd {
     transition: 0.5s ease;
@@ -259,7 +259,7 @@ const WorkProfile = styled.div`
 
 const Img = styled.img`
   width: 100%;
-  height: 480px;
+  height: 560px;
   margin-top: 20px;
 `;
 
