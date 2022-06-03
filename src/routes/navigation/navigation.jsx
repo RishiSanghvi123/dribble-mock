@@ -58,7 +58,7 @@ const UL = styled.ul`
   width: 644.56px;
   position: relative;
   right: 20px;
-  top: 5px;
+  top: 2px;
 `;
 
 const L1 = styled.li`
@@ -145,6 +145,7 @@ const FlexEnd = styled.div`
   display: flex;
   align-items: center;
   margin: 0;
+  width: 240px;
   /* margin-top: 10px; */
 `;
 
