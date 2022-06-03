@@ -40,7 +40,7 @@ const Navigation = () => {
           </UL>
         </NavLinks>
         <FlexEnd>
-          <IoSearch color="#9E9EA7" size={20} />
+          <IoSearch color="#9E9EA7" size={25} />
           <SignIn>Sign in</SignIn>
           <Button>Share my work</Button>
         </FlexEnd>
@@ -95,8 +95,8 @@ const Image = styled.img`
 `;
 
 const Container = styled.div`
-  padding-left: 12px;
-  padding-right: 12px;
+  /* padding-left: 12px;
+  padding-right: 12px; */
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
@@ -150,7 +150,7 @@ const FlexEnd = styled.div`
 `;
 
 const SignIn = styled.p`
-  font-size: 16px;
+  font-size: 20px;
   color: #6e6d7a;
   cursor: pointer;
   margin: 15px;
@@ -162,7 +162,7 @@ const Button = styled.button`
   border-radius: 6.5px;
   color: white;
   font-weight: bold;
-  font-size: 12px;
-  height: 35px;
-  width: 120px;
+  font-size: 16px;
+  height: 40px;
+  width: 140px;
 `;
