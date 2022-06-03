@@ -84,7 +84,7 @@ const Button = styled.button`
   justify-content: space-between;
   font-size: 15px;
   margin: 5px;
-  height: 36px;
+  height: 40px;
   width: 100px;
   border-radius: 6px;
   font-weight: bold;
