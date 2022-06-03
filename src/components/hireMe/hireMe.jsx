@@ -133,14 +133,19 @@ const ProfilePicture = styled.div`
 
 const AdditionalInfo = styled.div`
   display: grid;
-  margin-right: 120px;
-  margin-left: 120px;
+  /* margin-right: 120px;
+  margin-left: 120px; */
   margin-top: 30px;
+  align-items: center;
+  justify-content: center;
 `;
 const TextDiv = styled.div`
+  width: 90%;
+  margin-left: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* width: 100px; */
 `;
 const P2 = styled.p`
   font-size: 16px;
@@ -150,6 +155,7 @@ const P3 = styled.p`
   cursor: pointer;
   font-size: 14px;
   color: #e94c89;
+  margin-right: 75px;
   &:hover {
     opacity: 0.7;
   }
@@ -157,11 +163,13 @@ const P3 = styled.p`
 
 const ImageDiv = styled.div`
   display: flex;
+  width: 90%;
+  margin-left: 10%;
 `;
 
 const Image2 = styled.img`
   height: 100%;
-  width: 20%;
+  width: 21%;
   margin-right: 35px;
   border-radius: 4%;
   cursor: pointer;
