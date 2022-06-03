@@ -153,7 +153,7 @@ const Container = styled.div`
   padding-top: 40px;
   width: 70%;
   position: relative;
-  margin-left: 0px;
+  margin-left: 270px;
 `;
 const Profile = styled.div`
   display: flex;
