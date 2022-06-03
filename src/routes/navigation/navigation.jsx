@@ -85,9 +85,7 @@ const Image = styled.img`
   height: 40px;
   opacity: 1;
   display: block;
-  height: auto;
   transition: 0.1s ease;
-  backface-visibility: hidden;
   &:hover {
     opacity: 0.6;
   }
