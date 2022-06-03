@@ -150,10 +150,10 @@ export default Onboarding;
 const Container = styled.div`
   /* margin-left: 24%;
   margin-right: 23.4%; */
-  padding-top: 40px;
+  padding-top: 50px;
   width: 70%;
   position: relative;
-  margin-left: 270px;
+  margin-left: 300px;
 `;
 const Profile = styled.div`
   display: flex;
