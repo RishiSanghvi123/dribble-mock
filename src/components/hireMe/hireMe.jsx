@@ -155,7 +155,7 @@ const P3 = styled.p`
   cursor: pointer;
   font-size: 14px;
   color: #e94c89;
-  margin-right: 75px;
+  margin-right: 10%;
   &:hover {
     opacity: 0.7;
   }
