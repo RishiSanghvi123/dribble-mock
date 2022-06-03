@@ -15,7 +15,7 @@ const Navigation = () => {
           <UL class="site-nav-desktop-nav">
             <L1>
               <P>Inspiration</P>
-              <div></div>
+              <HiddenDiv>HHHHH</HiddenDiv>
             </L1>
             <L2>
               <P>Find Work</P>
@@ -59,6 +59,15 @@ const UL = styled.ul`
   position: relative;
   right: 20px;
   top: 2px;
+`;
+
+const HiddenDiv = styled.div`
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  top: 150px;
+  z-index: 100;
 `;
 
 const L1 = styled.li`
