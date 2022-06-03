@@ -180,5 +180,5 @@ const Image3 = styled.img`
   width: 8%;
   margin-top: 40px;
   position: relative;
-  left: 48%;
+  left: 47%;
 `;
