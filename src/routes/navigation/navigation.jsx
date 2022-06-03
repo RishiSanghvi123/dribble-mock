@@ -95,14 +95,14 @@ const Image = styled.img`
 `;
 
 const Container = styled.div`
-  padding-left: 8px;
+  padding-left: 12px;
   /*padding-right: 12px; */
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   border-bottom: 1px solid #eff1f5;
   height: 80px;
-  width: 96%;
+  width: 100%;
 `;
 
 const NavLinks = styled.div`
@@ -144,8 +144,7 @@ const FlexEnd = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
-  margin: 0;
-  width: 300px;
+  width: 280px;
   /* margin-top: 10px; */
 `;
 
