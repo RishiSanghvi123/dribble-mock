@@ -169,14 +169,14 @@ const TextInfo = styled.div`
   display: grid;
   //align-items: center;
   padding-left: 15px;
-  margin: 0;
+
   justify-content: space-around;
 `;
 const PersonalTextInfo = styled.div`
   display: flex;
   align-items: center;
   margin: 0;
-  width: 147px;
+  width: 180px;
   justify-content: space-between;
   position: relative;
   bottom: 7px;
@@ -220,8 +220,8 @@ const SaveButton = styled.button`
   font-size: 12px;
   color: #2f2e41;
   margin: 5px;
-  height: 32px;
-  width: 50px;
+  height: 42px;
+  width: 60px;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
@@ -237,8 +237,8 @@ const LikeButton = styled.button`
   justify-content: space-between;
   font-size: 12px;
   margin: 5px;
-  height: 32px;
-  width: 63px;
+  height: 42px;
+  width: 73px;
   border-radius: 6px;
   font-weight: bold;
   cursor: pointer;
