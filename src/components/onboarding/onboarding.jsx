@@ -8,6 +8,8 @@ import Work3 from "../../assets/3.webp";
 import Work4 from "../../assets/4.webp";
 import Work5 from "../../assets/5.webp";
 
+import { useState } from "react";
+
 const Onboarding = () => {
   const arr = [
     "Yo, what's up guys! 🥳",
@@ -21,6 +23,35 @@ const Onboarding = () => {
     "Feel free to contact me - ",
     <A href="ertuken@gmail.com">ertuken@gmail.com</A>,
   ];
+
+  const [slideIndex, setSlideIndex] = useState(Work1);
+  const handleClick = (direction) => {
+    if (direction === "left") {
+      setSlideIndex(
+        slideIndex === Work1
+          ? Work5
+          : slideIndex === Work2
+          ? Work1
+          : slideIndex === Work3
+          ? Work2
+          : slideIndex === Work4
+          ? Work3
+          : Work4
+      );
+    } else {
+      setSlideIndex(
+        slideIndex === Work1
+          ? Work2
+          : slideIndex === Work2
+          ? Work3
+          : slideIndex === Work3
+          ? Work4
+          : slideIndex === Work4
+          ? Work5
+          : Work1
+      );
+    }
+  };
   return (
     <Container>
       <Profile>
@@ -61,82 +92,108 @@ const Onboarding = () => {
       </Profile>
       <WorkProfile>
         {/* <LeftButton></LeftButton> */}
-        <LeftButton className="abcd">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            role="img"
-            className="icon "
-          >
-            <rect
-              width="13"
-              height="15"
-              transform="matrix(-1 0 0 1 19 5)"
-              fill="black"
-              fillOpacity="0.2"
-            ></rect>
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM8.49975 11.9996L12.2659 15.7071C12.6614 16.0971 13.3064 16.0971 13.7024 15.7076C13.8944 15.5186 13.9999 15.2676 13.9999 15.0006C13.9999 14.7336 13.8944 14.4826 13.7024 14.2936L11.3728 12.0001L13.7024 9.70662C14.0984 9.31662 14.0984 8.68162 13.7024 8.29212C13.3064 7.90263 12.6619 7.90263 12.2659 8.29212L8.49975 11.9996Z"
-              fill="white"
-            ></path>
-            <circle
-              r="11.5"
-              transform="matrix(-1 0 0 1 12 12)"
-              stroke="black"
-              strokeOpacity="0.1"
-            ></circle>
-          </svg>
-        </LeftButton>
-        <RightButton className="abcd">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="27"
-            height="27"
-            viewBox="0 0 24 24"
-            fill="none"
-            role="img"
-            className="icon "
-          >
-            <rect
-              x="5"
-              y="5"
-              width="13"
-              height="15"
-              fill="black"
-              fillOpacity="0.2"
-            ></rect>
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM15.5003 11.9996L11.7341 15.7071C11.3386 16.0971 10.6936 16.0971 10.2976 15.7076C10.1056 15.5186 10.0001 15.2676 10.0001 15.0006C10.0001 14.7336 10.1056 14.4826 10.2976 14.2936L12.6272 12.0001L10.2976 9.70662C9.90159 9.31662 9.90159 8.68162 10.2976 8.29212C10.6936 7.90263 11.3381 7.90263 11.7341 8.29212L15.5003 11.9996Z"
-              fill="white"
-            ></path>
-            <circle
-              cx="12"
-              cy="12"
-              r="11.5"
-              stroke="black"
-              strokeOpacity="0.1"
-            ></circle>
-          </svg>
-        </RightButton>
-        <Img src={Work1} />
-        <Img src={Work2} />
-        <Img src={Work3} />
-        <Img src={Work4} />
-        <Img src={Work5} />
+        <Arrow direction="left" onClick={() => handleClick("left")}>
+          <LeftButton className="abcd">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              role="img"
+              className="icon "
+            >
+              <rect
+                width="13"
+                height="15"
+                transform="matrix(-1 0 0 1 19 5)"
+                fill="black"
+                fillOpacity="0.2"
+              ></rect>
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM8.49975 11.9996L12.2659 15.7071C12.6614 16.0971 13.3064 16.0971 13.7024 15.7076C13.8944 15.5186 13.9999 15.2676 13.9999 15.0006C13.9999 14.7336 13.8944 14.4826 13.7024 14.2936L11.3728 12.0001L13.7024 9.70662C14.0984 9.31662 14.0984 8.68162 13.7024 8.29212C13.3064 7.90263 12.6619 7.90263 12.2659 8.29212L8.49975 11.9996Z"
+                fill="white"
+              ></path>
+              <circle
+                r="11.5"
+                transform="matrix(-1 0 0 1 12 12)"
+                stroke="black"
+                strokeOpacity="0.1"
+              ></circle>
+            </svg>
+          </LeftButton>
+        </Arrow>
+        <Arrow direction="right" onClick={() => handleClick("right")}>
+          <RightButton className="abcd">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="27"
+              height="27"
+              viewBox="0 0 24 24"
+              fill="none"
+              role="img"
+              className="icon "
+            >
+              <rect
+                x="5"
+                y="5"
+                width="13"
+                height="15"
+                fill="black"
+                fillOpacity="0.2"
+              ></rect>
+              <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23ZM15.5003 11.9996L11.7341 15.7071C11.3386 16.0971 10.6936 16.0971 10.2976 15.7076C10.1056 15.5186 10.0001 15.2676 10.0001 15.0006C10.0001 14.7336 10.1056 14.4826 10.2976 14.2936L12.6272 12.0001L10.2976 9.70662C9.90159 9.31662 9.90159 8.68162 10.2976 8.29212C10.6936 7.90263 11.3381 7.90263 11.7341 8.29212L15.5003 11.9996Z"
+                fill="white"
+              ></path>
+              <circle
+                cx="12"
+                cy="12"
+                r="11.5"
+                stroke="black"
+                strokeOpacity="0.1"
+              ></circle>
+            </svg>
+          </RightButton>
+        </Arrow>
+        <SliderSlick>
+          <Img src={slideIndex} />
+          {/* <Img src={Work2} />
+          <Img src={Work3} />
+          <Img src={Work4} />
+          <Img src={Work5} /> */}
+        </SliderSlick>
       </WorkProfile>
       <Slider>
-        <ImgSlider src={Work1} className="selected" />
-        <ImgSlider src={Work2} />
-        <ImgSlider src={Work3} />
-        <ImgSlider src={Work4} />
-        <ImgSlider src={Work5} />
+        <ImgSlider
+          src={Work1}
+          className={slideIndex === Work1 ? "selected" : ""}
+          onClick={() => setSlideIndex(Work1)}
+        />
+        <ImgSlider
+          src={Work2}
+          className={slideIndex === Work2 ? "selected" : ""}
+          onClick={() => setSlideIndex(Work2)}
+        />
+        <ImgSlider
+          src={Work3}
+          className={slideIndex === Work3 ? "selected" : ""}
+          onClick={() => setSlideIndex(Work3)}
+        />
+        <ImgSlider
+          src={Work4}
+          className={slideIndex === Work4 ? "selected" : ""}
+          onClick={() => setSlideIndex(Work4)}
+        />
+        <ImgSlider
+          src={Work5}
+          className={slideIndex === Work5 ? "selected" : ""}
+          onClick={() => setSlideIndex(Work5)}
+        />
       </Slider>
       <PersonalText>
         <Description>{arr}</Description>
@@ -245,12 +302,6 @@ const LikeButton = styled.button`
 `;
 
 const WorkProfile = styled.div`
-  display: flex;
-  overflow: hidden;
-  position: relative;
-
-  width: 75%;
-  height: 100%;
   &:hover .abcd {
     transition: 0.5s ease;
     opacity: 1;
@@ -263,13 +314,30 @@ const Img = styled.img`
   margin-top: 20px;
 `;
 
+const Arrow = styled.div`
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 200px;
+  left: ${(props) => props.direction === "left" && "10px"};
+  right: ${(props) => props.direction === "right" && "10px"};
+  margin: auto;
+  cursor: pointer;
+  opacity: 0.5;
+  z-index: 2;
+`;
+
 const LeftButton = styled.button`
   background-color: transparent;
   position: absolute;
-  top: 50%;
-  left: 0%;
+
   color: white;
-  padding: 12px 24px;
+
   border: none;
   cursor: pointer;
   opacity: 0;
@@ -278,10 +346,9 @@ const LeftButton = styled.button`
 const RightButton = styled.button`
   background-color: transparent;
   position: absolute;
-  top: 50%;
-  right: 0%;
+
   color: white;
-  padding: 12px 24px;
+
   border: none;
   cursor: pointer;
   opacity: 0;
@@ -300,6 +367,15 @@ const Slider = styled.div`
     border-color: #e94c89;
     z-index: 1;
   }
+`;
+
+const SliderSlick = styled.div`
+  display: flex;
+  //overflow: hidden;
+  position: relative;
+  width: 75%;
+  height: 100%;
+  //transform: translateX(${(props) => props.slideIndex * -1000}px);
 `;
 
 const ImgSlider = styled.img`
