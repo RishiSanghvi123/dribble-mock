@@ -279,10 +279,11 @@ const InnerP1 = styled.p``;
 const P1 = styled.div`
   font-size: 14px;
   font-weight: 700;
+  position: relative;
   color: #6e6d7a;
   cursor: pointer;
-  /* padding: 6px; */
   height: 40px;
+  bottom: 3px;
   width: 70px;
   /* justify-content: center;
   align-items: center; */
@@ -296,7 +297,7 @@ const P2 = styled.div`
   color: #6e6d7a;
   cursor: pointer;
   /* padding: 6px; */
-  height: 25px;
+  height: 30px;
   width: 70px;
 `;
 
@@ -310,7 +311,7 @@ const P3 = styled.div`
   /* padding: 4px; */
   position: relative;
   //top: 12px;
-  height: 27px;
+  height: 32px;
   width: 90px;
 `;
 
@@ -325,7 +326,7 @@ const P4 = styled.div`
   }
   cursor: pointer;
   /* padding: 6px; */
-  height: 26px;
+  height: 31px;
   width: 60px;
 `;
 
@@ -340,7 +341,7 @@ const P5 = styled.div`
   }
   cursor: pointer;
   /* padding: 6px; */
-  height: 25px;
+  height: 35px;
   width: 70px;
 `;
 
@@ -357,7 +358,7 @@ const P6 = styled.div`
   /* padding: 4px; */
   position: relative;
   //top: 12px;
-  height: 25px;
+  height: 35px;
 `;
 
 const NavLinks = styled.div`
