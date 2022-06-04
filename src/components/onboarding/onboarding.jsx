@@ -170,32 +170,35 @@ const Onboarding = () => {
           </SliderSlick>
         </WorkProfile>
         <Slider>
-          <ImgSlider
-            src={Work1}
-            className={slideIndex === Work1 ? "selected" : ""}
-            onClick={() => setSlideIndex(Work1)}
-          />
-          <ImgSlider
-            src={Work2}
-            className={slideIndex === Work2 ? "selected" : ""}
-            onClick={() => setSlideIndex(Work2)}
-          />
-          <ImgSlider
-            src={Work3}
-            className={slideIndex === Work3 ? "selected" : ""}
-            onClick={() => setSlideIndex(Work3)}
-          />
-          <ImgSlider
-            src={Work4}
-            className={slideIndex === Work4 ? "selected" : ""}
-            onClick={() => setSlideIndex(Work4)}
-          />
-          <ImgSlider
-            src={Work5}
-            className={slideIndex === Work5 ? "selected" : ""}
-            onClick={() => setSlideIndex(Work5)}
-          />
+          <ImgSliderDiv>
+            <ImgSlider
+              src={Work1}
+              className={slideIndex === Work1 ? "selected" : ""}
+              onClick={() => setSlideIndex(Work1)}
+            />
+            <ImgSlider
+              src={Work2}
+              className={slideIndex === Work2 ? "selected" : ""}
+              onClick={() => setSlideIndex(Work2)}
+            />
+            <ImgSlider
+              src={Work3}
+              className={slideIndex === Work3 ? "selected" : ""}
+              onClick={() => setSlideIndex(Work3)}
+            />
+            <ImgSlider
+              src={Work4}
+              className={slideIndex === Work4 ? "selected" : ""}
+              onClick={() => setSlideIndex(Work4)}
+            />
+            <ImgSlider
+              src={Work5}
+              className={slideIndex === Work5 ? "selected" : ""}
+              onClick={() => setSlideIndex(Work5)}
+            />
+          </ImgSliderDiv>
         </Slider>
+
         <PersonalText>
           <Description>{arr}</Description>
         </PersonalText>
@@ -216,16 +219,15 @@ const Container = styled.div`
   /* margin-left: 24%;
   margin-right: 23.4%; */
   padding-top: 40px;
-  width: 72%;
+  width: 50%;
   position: relative;
-  display: grid;
 
   /* padding-left: 350px; */
 `;
 const Profile = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 75%;
+  width: 100%;
   /* justify-content: center; */
   align-items: center;
 `;
@@ -329,7 +331,7 @@ const Img = styled.img`
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
-  background-color: black;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -340,7 +342,7 @@ const Arrow = styled.div`
   right: ${(props) => props.direction === "right" && "10px"};
   margin: auto;
   cursor: pointer;
-  opacity: 0.5;
+
   z-index: 2;
 `;
 
@@ -367,12 +369,17 @@ const RightButton = styled.button`
 `;
 
 const Slider = styled.div`
-  width: 504px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const ImgSliderDiv = styled.div`
+  width: 100%;
   height: 68px;
   display: flex;
   align-items: center;
   position: relative;
-  left: 100px;
   .selected {
     border-style: solid;
     border-width: 2.2px;
@@ -388,7 +395,7 @@ const SliderSlick = styled.div`
   display: flex;
   //overflow: hidden;
   position: relative;
-  width: 75%;
+  width: 100%;
   height: 100%;
   //transform: translateX(${(props) => props.slideIndex * -1000}px);
 `;
