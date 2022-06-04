@@ -219,7 +219,7 @@ const Container = styled.div`
   /* margin-left: 24%;
   margin-right: 23.4%; */
   padding-top: 40px;
-  width: 50%;
+  width: 55%;
   position: relative;
 
   /* padding-left: 350px; */
