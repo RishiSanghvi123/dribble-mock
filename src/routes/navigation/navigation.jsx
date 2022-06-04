@@ -283,7 +283,7 @@ const P1 = styled.div`
   color: #6e6d7a;
   cursor: pointer;
   height: 40px;
-  bottom: 3px;
+  bottom: 7.5px;
   width: 70px;
   /* justify-content: center;
   align-items: center; */
@@ -297,7 +297,7 @@ const P2 = styled.div`
   color: #6e6d7a;
   cursor: pointer;
   /* padding: 6px; */
-  height: 30px;
+  height: 40px;
   width: 70px;
 `;
 
@@ -311,7 +311,7 @@ const P3 = styled.div`
   /* padding: 4px; */
   position: relative;
   //top: 12px;
-  height: 32px;
+  height: 42px;
   width: 90px;
 `;
 
@@ -326,7 +326,7 @@ const P4 = styled.div`
   }
   cursor: pointer;
   /* padding: 6px; */
-  height: 31px;
+  height: 41px;
   width: 60px;
 `;
 
@@ -341,7 +341,7 @@ const P5 = styled.div`
   }
   cursor: pointer;
   /* padding: 6px; */
-  height: 35px;
+  height: 45px;
   width: 70px;
 `;
 
@@ -358,7 +358,7 @@ const P6 = styled.div`
   /* padding: 4px; */
   position: relative;
   //top: 12px;
-  height: 35px;
+  height: 45px;
 `;
 
 const NavLinks = styled.div`
