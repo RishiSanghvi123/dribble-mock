@@ -303,7 +303,7 @@ const Slider = styled.div`
 `;
 
 const ImgSlider = styled.img`
-  height: 55px;
+  height: 65px;
   width: 75px;
   margin: 10px;
   border-radius: 7px;
