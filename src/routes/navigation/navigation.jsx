@@ -176,7 +176,7 @@ const HiddenDiv = styled.div`
   position: absolute;
   height: 280px;
   border-radius: 10px;
-  width: 170px;
+  width: 180px;
   background-color: #fefcfc;
   top: 60px;
   z-index: 100;
@@ -191,7 +191,7 @@ const HiddenDiv2 = styled.div`
   position: absolute;
   height: 224px;
   border-radius: 10px;
-  width: 230px;
+  width: 240px;
   background-color: #fefcfc;
   top: 60px;
   z-index: 100;
@@ -206,7 +206,7 @@ const HiddenDiv3 = styled.div`
   position: absolute;
   height: 122px;
   border-radius: 10px;
-  width: 260px;
+  width: 270px;
   background-color: #fefcfc;
   top: 60px;
   z-index: 100;
@@ -221,7 +221,7 @@ const HiddenDiv4 = styled.div`
   position: absolute;
   height: 168px;
   border-radius: 10px;
-  width: 185px;
+  width: 195px;
   background-color: #fefcfc;
   top: 60px;
   z-index: 100;
@@ -236,7 +236,7 @@ const HiddenDiv5 = styled.div`
   position: absolute;
   height: 448px;
   border-radius: 10px;
-  width: 220px;
+  width: 230px;
   background-color: #fefcfc;
   top: 60px;
   z-index: 100;
@@ -251,7 +251,7 @@ const HiddenDiv6 = styled.div`
   position: absolute;
   height: 168px;
   border-radius: 10px;
-  width: 190px;
+  width: 200px;
   background-color: #fefcfc;
   top: 60px;
   z-index: 100;
@@ -373,7 +373,7 @@ const ItemDiv = styled.div`
   padding-top: 15px;
   height: 40px;
   border-bottom: 1px solid pink;
-  width: 160px;
+  width: 170px;
   padding-left: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -400,7 +400,7 @@ const ItemDiv2 = styled.div`
   padding-top: 15px;
   height: 40px;
   border-bottom: 1px solid pink;
-  width: 220px;
+  width: 230px;
   padding-left: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -414,7 +414,7 @@ const ItemDiv3 = styled.div`
   padding-top: 15px;
   height: 45px;
   border-bottom: 1px solid pink;
-  width: 250px;
+  width: 260px;
   padding-left: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -428,7 +428,7 @@ const ItemDiv4 = styled.div`
   padding-top: 15px;
   height: 40px;
   border-bottom: 1px solid pink;
-  width: 175px;
+  width: 185px;
   padding-left: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -442,7 +442,7 @@ const ItemDiv5 = styled.div`
   padding-top: 15px;
   height: 40px;
   border-bottom: 1px solid pink;
-  width: 210px;
+  width: 220px;
   padding-left: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -456,7 +456,7 @@ const ItemDiv6 = styled.div`
   padding-top: 15px;
   height: 40px;
   border-bottom: 1px solid pink;
-  width: 180px;
+  width: 190px;
   padding-left: 10px;
   border-radius: 10px;
   cursor: pointer;
@@ -545,8 +545,8 @@ const L6 = styled.li`
 `;
 
 const Image = styled.img`
-  width: 100px;
-  height: 40px;
+  width: 110px;
+  height: 60px;
   opacity: 1;
   display: block;
   transition: 0.1s ease;
