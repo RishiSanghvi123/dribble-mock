@@ -369,7 +369,7 @@ const RightButton = styled.button`
 `;
 
 const Slider = styled.div`
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
 `;
