@@ -360,7 +360,7 @@ const Slider = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  left: 114px;
+  left: 100px;
   .selected {
     border-style: solid;
     border-width: 2.2px;
@@ -380,7 +380,7 @@ const SliderSlick = styled.div`
 
 const ImgSlider = styled.img`
   height: 65px;
-  width: 75px;
+  width: 85px;
   margin: 10px;
   border-radius: 7px;
   margin-top: 80px;
