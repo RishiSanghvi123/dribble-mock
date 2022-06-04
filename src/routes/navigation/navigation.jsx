@@ -373,7 +373,7 @@ const ItemDiv = styled.div`
   display: grid;
   padding-top: 15px;
   height: 40px;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid whitesmoke;
   width: 170px;
   padding-left: 10px;
   border-radius: 10px;
@@ -400,7 +400,7 @@ const ItemDiv2 = styled.div`
   display: grid;
   padding-top: 15px;
   height: 40px;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid whitesmoke;
   width: 230px;
   padding-left: 10px;
   border-radius: 10px;
@@ -414,7 +414,7 @@ const ItemDiv3 = styled.div`
   display: grid;
   padding-top: 15px;
   height: 45px;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid whitesmoke;
   width: 260px;
   padding-left: 10px;
   border-radius: 10px;
@@ -428,7 +428,7 @@ const ItemDiv4 = styled.div`
   display: grid;
   padding-top: 15px;
   height: 40px;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid whitesmoke;
   width: 185px;
   padding-left: 10px;
   border-radius: 10px;
@@ -442,7 +442,7 @@ const ItemDiv5 = styled.div`
   display: grid;
   padding-top: 15px;
   height: 40px;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid whitesmoke;
   width: 220px;
   padding-left: 10px;
   border-radius: 10px;
@@ -456,7 +456,7 @@ const ItemDiv6 = styled.div`
   display: grid;
   padding-top: 15px;
   height: 40px;
-  border-bottom: 1px solid pink;
+  border-bottom: 1px solid whitesmoke;
   width: 190px;
   padding-left: 10px;
   border-radius: 10px;
