@@ -546,7 +546,7 @@ const L6 = styled.li`
 
 const Image = styled.img`
   width: 110px;
-  height: 60px;
+  height: 50px;
   opacity: 1;
   display: block;
   transition: 0.1s ease;
