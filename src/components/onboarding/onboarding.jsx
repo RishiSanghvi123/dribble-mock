@@ -384,10 +384,6 @@ const ImgSliderDiv = styled.div`
     border-style: solid;
     border-width: 2.2px;
     border-color: #e94c89;
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: #e7e4e4;
-    transition: 0.1s ease;
   }
 `;
 
