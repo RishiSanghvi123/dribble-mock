@@ -99,11 +99,11 @@ const Container = styled.div`
 `;
 const LeftContainer = styled.div`
   width: 25%;
-  padding-top: 40px;
+  padding-top: 20px;
 `;
 const RightContainer = styled.div`
   width: 75%;
-  padding-top: 50px;
+  padding-top: 25px;
 `;
 
 const Social = styled.div`
@@ -125,7 +125,7 @@ const Image2 = styled.img`
 `;
 
 const Span = styled.span`
-  width: 73%;
+  width: 70%;
   padding-left: 60px;
   margin-bottom: 20px;
   font-size: 13px;
