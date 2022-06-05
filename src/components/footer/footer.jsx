@@ -95,7 +95,7 @@ const Container = styled.div`
   /* justify-content: center;
   align-items: center; */
   background-color: #fafafb;
-  padding-bottom: 60px;
+  padding-bottom: 200px;
 `;
 const LeftContainer = styled.div`
   width: 25%;
@@ -125,7 +125,7 @@ const Image2 = styled.img`
 `;
 
 const Span = styled.span`
-  width: 86%;
+  width: 66%;
   padding-left: 60px;
   margin-bottom: 20px;
   font-size: 13px;
@@ -136,7 +136,7 @@ const AdditionalInfo = styled.div`
   justify-content: center;
   align-items: center;
   padding-right: 120px;
-  padding-left: 50px;
+  padding-left: 0px;
 `;
 
 const UL = styled.ul`
@@ -151,12 +151,12 @@ const LI = styled.li`
 `;
 
 const P1 = styled.p`
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
 `;
 
 const P2 = styled.p`
-  font-size: 12px;
+  font-size: 15px;
   cursor: pointer;
   z-index: 100;
   font-weight: 300;
