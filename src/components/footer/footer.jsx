@@ -99,11 +99,11 @@ const Container = styled.div`
 `;
 const LeftContainer = styled.div`
   width: 25%;
-  padding-top: 20px;
+  padding-top: 30px;
 `;
 const RightContainer = styled.div`
   width: 75%;
-  padding-top: 25px;
+  padding-top: 35px;
 `;
 
 const Social = styled.div`
