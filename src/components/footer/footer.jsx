@@ -95,7 +95,7 @@ const Container = styled.div`
   /* justify-content: center;
   align-items: center; */
   background-color: #fafafb;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 `;
 const LeftContainer = styled.div`
   width: 25%;
@@ -125,7 +125,7 @@ const Image2 = styled.img`
 `;
 
 const Span = styled.span`
-  width: 66%;
+  width: 73%;
   padding-left: 60px;
   margin-bottom: 20px;
   font-size: 13px;
